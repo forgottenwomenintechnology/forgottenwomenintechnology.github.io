@@ -1,36 +1,86 @@
-h1{
-     color:white;
-     text-align: end;
+#all{
+    height: 100%;
+    width: 100%;
+}
+header{
+     font-size: large;
+     text-decoration: none;
+}
+a{
+     text-decoration: none;
+     padding: 2rem;
+}
+
+#AboutUs{
+     scroll-behavior: smooth;
 }
 .pictures{
      display: flex;
+     color:white;
+     text-align: center;
+     font-family: monospace;
 }
 .ada{
-     background-image: url(https://cropper.watch.aetnd.com/cdn.watch.aetnd.com/sites/2/2018/05/Ada_Lovelace_portrait.jpg);
+     background-image: url(pictures/cropped-pictures/Ada_Lovelace_cropped.jpg);
      background-repeat: no-repeat;
-     padding-top: 10rem;
+     padding-top: 20rem;
      background-size: 100%;
+     width: 14rem;
      
 }
-
-.grace{
-     background-image: url(https://cdn.britannica.com/94/149294-050-1BDE70C7/Grace-Hopper-1984.jpg);
+.ada:hover{
+     background-image: url(Pictures/Ada_Lovelace_portrait.jpg);
      background-repeat: no-repeat;
-     padding-top: 10rem;
+     padding-top: 20rem;
      background-size: 100%;
-     
+     height: 7rem;
+     width: 20rem;
+}
+.grace{
+     background-image: url(pictures/cropped-pictures/Grace-Hopper-cropped.jpg);
+     background-repeat: no-repeat;
+     padding-top: 20rem;
+     background-size: 100%;
+     width: 14rem;
+}
+.grace:hover{
+     background-image: url(Pictures/Grace-Hopper-1984.jpg);
+     background-repeat: no-repeat;
+     padding-top: 20rem;
+     background-size: 100%;
+     height: 7rem;
+     width: 20rem;
 }
 .mary{
-     background-image: url(https://www.women.cs.cmu.edu/ada/Resources/Women/pictures/mary_keller.png);
+     background-image: url(pictures/cropped-pictures/mary_keller\ cropped.png);
      background-repeat: no-repeat;
-     padding-top: 10rem;
+     padding-top: 20rem;
      background-size: 100%;
-     
+     width: 14rem;
+
 }
-.janie{
-     background-image: url(https://teghblogcom.files.wordpress.com/2016/10/janie-tsao-190-100515222-orig.jpg);
+.mary:hover{
+     background-image: url(Pictures/mary_keller.png);
      background-repeat: no-repeat;
-     padding-top: 10rem;
+     padding-top: 20rem;
      background-size: 100%;
-     
+     height: 7rem;
+     width: 20rem;
+}
+
+.janie{
+     background-image: url(pictures/cropped-pictures/janie-tsao-cropped.jpg);
+     background-repeat: no-repeat;
+     padding-top: 20rem;
+     background-size: 100%;
+     width: 14rem;
+}
+
+.janie:hover{
+     background-image: url(Pictures/janie-tsao-190-100515222-orig.jpg);
+     background-repeat: no-repeat;
+     padding-top: 20rem;
+     background-size: 100%;
+     width: 20rem;
+     height: 7rem;
 }
