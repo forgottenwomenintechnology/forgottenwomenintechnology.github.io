@@ -1,2 +1,36 @@
-h1{color:blue}
+h1{
+     color:white;
+     text-align: end;
+}
+.pictures{
+     display: flex;
+}
+.ada{
+     background-image: url(https://cropper.watch.aetnd.com/cdn.watch.aetnd.com/sites/2/2018/05/Ada_Lovelace_portrait.jpg);
+     background-repeat: no-repeat;
+     padding-top: 10rem;
+     background-size: 100%;
+     
+}
 
+.grace{
+     background-image: url(https://cdn.britannica.com/94/149294-050-1BDE70C7/Grace-Hopper-1984.jpg);
+     background-repeat: no-repeat;
+     padding-top: 10rem;
+     background-size: 100%;
+     
+}
+.mary{
+     background-image: url(https://www.women.cs.cmu.edu/ada/Resources/Women/pictures/mary_keller.png);
+     background-repeat: no-repeat;
+     padding-top: 10rem;
+     background-size: 100%;
+     
+}
+.janie{
+     background-image: url(https://teghblogcom.files.wordpress.com/2016/10/janie-tsao-190-100515222-orig.jpg);
+     background-repeat: no-repeat;
+     padding-top: 10rem;
+     background-size: 100%;
+     
+}
