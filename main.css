@@ -5,17 +5,24 @@ body{
     padding: 0%;
     text-align: center;
 }
+
 header{
-     font-size: large;
+     font-size: larger;
      text-decoration: none;
-     padding-bottom: 1rem;
-     padding-top: 1rem;
+     padding-bottom: 2rem;
+     padding-top: 2rem;
 }
+
 
 a{
      text-decoration: none;
-     padding: 2rem;
+     padding: 1rem;
      color: honeydew;
+     font-family: monospace;
+}
+
+a:hover{
+     background-color: rgb(99, 94, 94);
 }
 
 h1{
@@ -28,10 +35,13 @@ h1{
 }
 
 .pictures{
-     display: flex;
+     display: inline-flex;
      color: honeydew;
-     text-align: center;
+     align-self: center;
      font-family: monospace;
+     flex-wrap: nowrap; 
+     padding-top: 1rem;
+     padding: 1rem;
 }
 
 .ada{
@@ -39,8 +49,7 @@ h1{
      background-repeat: no-repeat;
      padding-top: 20rem;
      background-size: 100%;
-     width: 14rem;
-     
+     width: 14rem;     
 }
 
 .ada:hover{
