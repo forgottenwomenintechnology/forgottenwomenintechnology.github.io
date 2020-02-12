@@ -30,6 +30,11 @@ h1{
      font-family: monospace;
 }
 
+p{
+     color: honeydew;
+     font-family: monospace;
+}
+
 #AboutUs{
      scroll-behavior: smooth;
 }
@@ -41,6 +46,7 @@ h1{
      font-family: monospace;
      flex-wrap: nowrap; 
      padding-top: 1rem;
+     padding-bottom: 2rem;
      padding: 1rem;
 }
 
