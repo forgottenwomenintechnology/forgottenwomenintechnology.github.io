@@ -6,6 +6,10 @@ body{
     text-align: center;
 }
 
+h1 {
+     color: honeydew;
+     font-family: monospace;
+}
 header{
      font-size: larger;
      text-decoration: none;
@@ -14,20 +18,22 @@ header{
 }
 
 
-a{
+header a{
      text-decoration: none;
      padding: 1rem;
      color: honeydew;
      font-family: monospace;
 }
 
-a:hover{
+header a:hover{
      background-color: rgb(99, 94, 94);
 }
 
-h1{
+.pictures a{
      color: honeydew;
      font-family: monospace;
+     text-decoration: none;
+     padding-bottom: 2rem;
 }
 
 p{
