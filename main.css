@@ -50,6 +50,7 @@ p{
      color: honeydew;
      align-self: center;
      font-family: monospace;
+     font-size: larger;
      flex-wrap: nowrap; 
      padding-top: 1rem;
      padding-bottom: 2rem;
