@@ -124,3 +124,15 @@ p{
      width: 20rem;
      height: 7rem;
 }
+
+.Intro{
+     width: 60rem;
+     text-align: center;
+     padding-left: 12rem;
+}
+
+#AboutUs{
+     width: 60rem;
+     text-align: center;
+     padding-left: 12rem;
+}
