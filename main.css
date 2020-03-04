@@ -159,6 +159,7 @@ header a:hover{
      width: 60%;
      text-align: center;
      padding-left: 20%;
+     padding-top: 1rem;
 }
 
 #AboutUs{
@@ -167,7 +168,6 @@ header a:hover{
      padding-left: 20%;
      
 }
-
 
 #Banner{
      background-image: url(Pictures/contactusbanner.jpg);
@@ -184,15 +184,32 @@ header a:hover{
      font-size: 1.2rem
 }
 #Form {
-    flex-wrap: wrap;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    padding: 1rem;
 }
 textarea{
      font-size: 1.2rem;
      text-align: left;
 }
-#button-bar{
 
+#FullName{
+     padding: 0.3rem;
 }
+#emailaddress{
+     padding: 0.3rem;
+}
+
+#btn-post{
+     width: 7rem;
+     height: 2rem;
+     font-style: monospace;
+}
+
+#ContactDetails{
+     padding-bottom: 5rem;
+}
+
 #FactFile{
      text-align: left;
      padding-left: 1rem;
@@ -210,4 +227,9 @@ textarea{
      text-align: left;
      padding-left: 1rem;
      padding-top: 1rem;
+}
+
+#profilepic{
+     padding: 1rem;
+     padding-left: 4rem;
 }
