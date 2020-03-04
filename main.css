@@ -196,8 +196,15 @@ textarea{
 #FactFile{
      text-align: left;
      padding-left: 1rem;
-     padding-top: 1rem;
+     padding-top: 3rem;
+     width: 25%;
 }
+
+#profile{
+     display: inline-flex;
+     flex-wrap: nowrap;
+}
+
 #Biography{
      width: 50%;
      text-align: left;
