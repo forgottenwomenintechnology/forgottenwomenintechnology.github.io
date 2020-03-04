@@ -1,7 +1,7 @@
 body{
     height: 100%;
     width: 100%;
-    background-color: rgb(41, 40, 40);
+    background-color: rgb(45, 46, 48);
     padding: 0%;
     text-align: center;
 }
@@ -9,16 +9,50 @@ body{
 h1 {
      color: honeydew;
      font-family: monospace;
+     text-align: left;
+     padding-left: 1rem;
 }
+h3 {
+     color: honeydew;
+     font-family: monospace;
+     text-align: left;
+     font-size: 2rem;
+}
+
+p{
+     color: honeydew;
+     font-family: monospace;
+     font-size: 1.2rem;
+
+}
+ul{
+     color: honeydew;
+     font-family: monospace;
+     font-size: 1.2rem; 
+}
+
 header{
-     font-size: larger;
+     font-size: 1.2rem;
      text-decoration: none;
      padding-bottom: 2rem;
      padding-top: 2rem;
 }
-
+footer{
+     font-size: 1.2rem;
+     text-decoration: none;
+     padding-bottom: 1rem;
+     padding-top: 1rem;
+     text-align: left;
+     background-color: rgb(99, 94, 94) ;
+}
 
 header a{
+     text-decoration: none;
+     padding: 1rem;
+     color: honeydew;
+     font-family: monospace;
+}
+footer a{
      text-decoration: none;
      padding: 1rem;
      color: honeydew;
@@ -27,18 +61,6 @@ header a{
 
 header a:hover{
      background-color: rgb(99, 94, 94);
-}
-
-.pictures a{
-     color: honeydew;
-     font-family: monospace;
-     text-decoration: none;
-     padding-bottom: 2rem;
-}
-
-p{
-     color: honeydew;
-     font-family: monospace;
 }
 
 #AboutUs{
@@ -55,6 +77,13 @@ p{
      padding-top: 1rem;
      padding-bottom: 2rem;
      padding: 1rem;
+}
+
+.pictures a{
+     color: honeydew;
+     font-family: monospace;
+     text-decoration: none;
+     padding-bottom: 2rem;
 }
 
 .ada{
@@ -126,13 +155,51 @@ p{
 }
 
 .Intro{
-     width: 60rem;
+     width: 60%;
      text-align: center;
-     padding-left: 12rem;
+     padding-left: 20%;
 }
 
 #AboutUs{
-     width: 60rem;
+     width: 60%;
      text-align: center;
-     padding-left: 12rem;
+     padding-left: 20%;
+     
+}
+
+
+#Banner{
+     background-image: url(Pictures/contactusbanner.jpg);
+     background-repeat: no-repeat;
+     background-size: 100%;
+     padding-top: 10rem;
+     padding-left: 2rem;
+     padding-bottom: 1rem;
+     width: 100%;
+     text-align: left;
+     font-size: 1rem;
+}
+#FormText{
+     font-size: 1.2rem
+}
+#Form {
+    flex-wrap: wrap;
+}
+textarea{
+     font-size: 1.2rem;
+     text-align: left;
+}
+#button-bar{
+
+}
+#FactFile{
+     text-align: left;
+     padding-left: 1rem;
+     padding-top: 1rem;
+}
+#Biography{
+     width: 50%;
+     text-align: left;
+     padding-left: 1rem;
+     padding-top: 1rem;
 }
